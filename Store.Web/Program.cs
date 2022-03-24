@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IGuitarRepository, GuitarRepository>();
+builder.Services.AddScoped<GuitarService>();
 
 var app = builder.Build();
 

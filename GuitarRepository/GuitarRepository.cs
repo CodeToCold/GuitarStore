@@ -6,14 +6,22 @@ namespace Store.Memory
     {
         private readonly Guitar[] guitars = new[]
         {
-            new Guitar("Gibson", 1),
-            new Guitar("Ibanez", 2),
-            new Guitar("Auchan", 3)
+            new Guitar("Gibson", 1, "NUM 12312-12312", "Telecaster"),
+            new Guitar("Ibanez", 2, "NUM 12312-12313", "Telecaster"), 
+            new Guitar("Auchan", 3, "NUM 12312-12314", "Stratocaster")
         };
 
-        public Guitar[] GetAllByQuery(string query)
+        public Guitar[] GetAllByCompanyOrName(string query)
         {
-            return guitars.Where(guitar => guitar.Name.Contains(query)).ToArray();
+            return guitars.Where(guitar => guitar.Company.Contains(query) ||
+                                           guitar.ModelName.Contains(query))
+                              .ToArray();
         }
+
+        public Guitar[] GetAllByModelNumber(string modelNumber)
+        {
+            return guitars.Where(guitar => guitar.ModelNumber.Contains(modelNumber))
+                                .ToArray();
+        }      
     }
 }

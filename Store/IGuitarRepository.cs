@@ -8,7 +8,8 @@ namespace Store
 {
     public interface IGuitarRepository
     {
-        Guitar[] GetAllByQuery(string query);
-              
+        Guitar[] GetAllByModelNumber(string modelNumber);
+
+        Guitar[] GetAllByCompanyOrName(string companyOrName);
     }
 }

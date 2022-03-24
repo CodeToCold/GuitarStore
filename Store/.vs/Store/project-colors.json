@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "204901c0-a7e0-42b2-a3b2-d261dcd13dd4": {
+      "ProjectGuid": "204901c0-a7e0-42b2-a3b2-d261dcd13dd4",
+      "DisplayName": "Store",
+      "ColorIndex": 0
+    },
+    "56d23eb3-522f-47ea-b1eb-377e6d6df365": {
+      "ProjectGuid": "56d23eb3-522f-47ea-b1eb-377e6d6df365",
+      "DisplayName": "Store.Memory",
+      "ColorIndex": 1
+    },
+    "324a0a95-a75a-46d3-8eae-41f897209ecb": {
+      "ProjectGuid": "324a0a95-a75a-46d3-8eae-41f897209ecb",
+      "DisplayName": "Store.Web",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

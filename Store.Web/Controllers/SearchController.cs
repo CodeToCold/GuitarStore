@@ -4,16 +4,16 @@ namespace Store.Web.Controllers
 {
     public class SearchController : Controller
     {
-        private readonly IGuitarRepository guitarRepository;
+        private readonly GuitarService guitarService;
 
-        public SearchController(IGuitarRepository guitarRepository)
+        public SearchController(GuitarService guitarService)
         {
-            this.guitarRepository = guitarRepository;
+            this.guitarService = guitarService;
         }
         
         public IActionResult Index(string query)
         {
-            var guitars = guitarRepository.GetAllByQuery(query);
+            var guitars = guitarService.GetAllByQuery(query);
 
                 return View(guitars);
         }
