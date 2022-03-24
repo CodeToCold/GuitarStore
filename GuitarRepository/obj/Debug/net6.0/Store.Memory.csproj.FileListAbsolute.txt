@@ -1,0 +1,15 @@
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\GuitarRepository\bin\Debug\net6.0\Store.Memory.deps.json
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\GuitarRepository\bin\Debug\net6.0\Store.Memory.dll
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\GuitarRepository\bin\Debug\net6.0\ref\Store.Memory.dll
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\GuitarRepository\bin\Debug\net6.0\Store.Memory.pdb
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\GuitarRepository\bin\Debug\net6.0\Store.dll
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\GuitarRepository\bin\Debug\net6.0\Store.pdb
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\GuitarRepository\obj\Debug\net6.0\Store.Memory.csproj.AssemblyReference.cache
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\GuitarRepository\obj\Debug\net6.0\Store.Memory.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\GuitarRepository\obj\Debug\net6.0\Store.Memory.AssemblyInfoInputs.cache
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\GuitarRepository\obj\Debug\net6.0\Store.Memory.AssemblyInfo.cs
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\GuitarRepository\obj\Debug\net6.0\Store.Memory.csproj.CoreCompileInputs.cache
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\GuitarRepository\obj\Debug\net6.0\Store.Memory.csproj.CopyComplete
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\GuitarRepository\obj\Debug\net6.0\Store.Memory.dll
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\GuitarRepository\obj\Debug\net6.0\ref\Store.Memory.dll
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\GuitarRepository\obj\Debug\net6.0\Store.Memory.pdb

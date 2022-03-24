@@ -1,0 +1,12 @@
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store\bin\Debug\net6.0\Store.deps.json
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store\bin\Debug\net6.0\Store.dll
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store\bin\Debug\net6.0\ref\Store.dll
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store\bin\Debug\net6.0\Store.pdb
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store\obj\Debug\net6.0\Store.csproj.AssemblyReference.cache
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store\obj\Debug\net6.0\Store.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store\obj\Debug\net6.0\Store.AssemblyInfoInputs.cache
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store\obj\Debug\net6.0\Store.AssemblyInfo.cs
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store\obj\Debug\net6.0\Store.csproj.CoreCompileInputs.cache
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store\obj\Debug\net6.0\Store.dll
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store\obj\Debug\net6.0\ref\Store.dll
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store\obj\Debug\net6.0\Store.pdb
