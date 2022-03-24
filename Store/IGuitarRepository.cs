@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Store
 {
-    internal interface IGuitarRepository
+    public interface IGuitarRepository
     {
+        Guitar[] GetAllByQuery(string query);
+              
     }
 }
