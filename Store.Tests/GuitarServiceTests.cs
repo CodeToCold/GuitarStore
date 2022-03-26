@@ -15,10 +15,10 @@ namespace Store.Tests
         {
             var guitarRepositoryStub = new Mock<IGuitarRepository>();
             guitarRepositoryStub.Setup(x => x.GetAllByModelNumber(It.IsAny<string>()))
-                                            .Returns(new[] { new Guitar("", 1, "", "") });
+                                            .Returns(new[] { new Guitar("", 1, "", "", "", 0m) });
           
             guitarRepositoryStub.Setup(x => x.GetAllByCompanyOrName(It.IsAny<string>()))
-                                            .Returns(new[] { new Guitar("", 2, "", "") });
+                                            .Returns(new[] { new Guitar("", 2, "", "", "", 0m) });
 
             var guitarService = new GuitarService(guitarRepositoryStub.Object);
             var validNumber = "NUM 12312-12312";
@@ -33,10 +33,10 @@ namespace Store.Tests
         {
             var guitarRepositoryStub = new Mock<IGuitarRepository>();
             guitarRepositoryStub.Setup(x => x.GetAllByModelNumber(It.IsAny<string>()))
-                                            .Returns(new[] { new Guitar("", 1, "", "") });
+                                            .Returns(new[] { new Guitar("", 1, "", "", "", 0m) });
 
             guitarRepositoryStub.Setup(x => x.GetAllByCompanyOrName(It.IsAny<string>()))
-                                            .Returns(new[] { new Guitar("", 2, "", "") });
+                                            .Returns(new[] { new Guitar("", 2, "", "", "", 0m) });
 
             var guitarService = new GuitarService(guitarRepositoryStub.Object);
             var invalidNumber = "12312-12312";

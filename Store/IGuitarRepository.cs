@@ -11,5 +11,7 @@ namespace Store
         Guitar[] GetAllByModelNumber(string modelNumber);
 
         Guitar[] GetAllByCompanyOrName(string companyOrName);
+       
+        Guitar GetById(int id);
     }
 }
