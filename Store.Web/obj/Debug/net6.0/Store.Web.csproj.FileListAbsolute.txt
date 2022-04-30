@@ -5,7 +5,6 @@ C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store.Web\bin\Debug\ne
 C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store.Web\bin\Debug\net6.0\Store.Web.deps.json
 C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store.Web\bin\Debug\net6.0\Store.Web.runtimeconfig.json
 C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store.Web\bin\Debug\net6.0\Store.Web.dll
-C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store.Web\bin\Debug\net6.0\ref\Store.Web.dll
 C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store.Web\bin\Debug\net6.0\Store.Web.pdb
 C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store.Web\bin\Debug\net6.0\Humanizer.dll
 C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store.Web\bin\Debug\net6.0\MessagePack.dll
@@ -234,3 +233,4 @@ C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store.Web\obj\Debug\ne
 C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store.Web\obj\Debug\net6.0\ref\Store.Web.dll
 C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store.Web\obj\Debug\net6.0\Store.Web.pdb
 C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store.Web\obj\Debug\net6.0\Store.Web.genruntimeconfig.cache
+C:\Users\Сбоев Иван\Documents\GitHub\GuitarStore\Store.Web\obj\Debug\net6.0\refint\Store.Web.dll
