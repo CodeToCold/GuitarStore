@@ -16,6 +16,19 @@
                 <input class="form-control mr-sm-2" type="search" name="query" placeholder="Company or name"/>
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
+            <span class="navbar-text ml-auto">
+                @{
+                    if (Context.Session.TryGetCart(out Cart cart) && cart.TotalCount > 0)
+                    {
+                            <a href="">@cart.TotalCount goods for @cart.TotalPrice</a>
+                    }
+                    else
+                    {
+                        @: There is no Hendrix vibe in your cart...
+                    }
+                  
+                }
+            </span>
         </nav>
     </header>
     <div class="container">
