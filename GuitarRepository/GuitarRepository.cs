@@ -18,6 +18,15 @@ namespace Store.Memory
                               .ToArray();
         }
 
+        public Guitar[] GetAllByIds(IEnumerable<int> guitarIds)
+        {
+            var foundGuitars = from guitar in guitars
+                               join guitarId in guitarIds on guitar.Id equals guitarId
+                               select guitar;
+
+            return foundGuitars.ToArray();
+        }
+
         public Guitar[] GetAllByModelNumber(string modelNumber)
         {
             return guitars.Where(guitar => guitar.ModelNumber.Contains(modelNumber))

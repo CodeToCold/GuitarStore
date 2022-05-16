@@ -4,11 +4,11 @@ namespace Store.Web.Controllers
 {
     public class SearchController : Controller
     {
-        private readonly GuitarService guitarService;
-
+        private readonly GuitarService guitarService;     
+        
         public SearchController(GuitarService guitarService)
         {
-            this.guitarService = guitarService;
+            this.guitarService = guitarService;        
         }
         
         public IActionResult Index(string query)

@@ -13,5 +13,7 @@ namespace Store
         Guitar[] GetAllByCompanyOrName(string companyOrName);
        
         Guitar GetById(int id);
+
+        Guitar[] GetAllByIds(IEnumerable<int> guitarIds);
     }
 }

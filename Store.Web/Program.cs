@@ -15,9 +15,10 @@ builder.Services.AddSession(options =>
 
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IGuitarRepository, GuitarRepository>();
+builder.Services.AddSingleton<IOrderRepository, OrderRepository>();
 builder.Services.AddScoped<GuitarService>();
 
-var app = builder.Build();
+var app = builder.Build(); 
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -34,7 +35,7 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.UseSession();
+app.UseSession();  
     
 app.MapControllerRoute(
     name: "default",
